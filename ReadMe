@@ -1,0 +1,39 @@
+using My.Excitement;
+using SupportOfExperts;
+using TheGuidanceOfMyInnerChild;
+
+public class MyResume : MonoBehaviour
+{
+  public List<GameObject> attempts; 
+  private string expectation = "";
+  private string dream = "";
+  private string workArea = "";
+  private List<string> personality;
+  
+  public void MyExperience()
+  {
+    attempts[0].GetChild(0).GetComponent<Text>().text = "As a final project,I made a 3D car racing game by learning and trying it myself.Although I didn't fully understand everything I was doing, I decided that I wanted to at least improve in this area.";
+    attempts[1].GetChild(0).GetComponent<Text>().text = "For the company I work for,I made a Listening Quiz game for children trying to learn a different language.I can't share this due to privacy rights."
+    attempts[2].GetChild(0).GetComponent<Text>().text = "I developed a simple project by myself to learn to use Firebase.There is a simple button and each time the button is pressed, your score will increase by 10 points. I keep the user's Email address, username and score in firebase.";
+    attempts[3].GetChild(0).GetComponent<Text>().text = "I am currently dealing with hypercasual game making. In addition, I mainly try to improve myself in 3D modeling and animation."
+  }
+  
+  public void IntroduceYourself()
+  {
+    List<string> personality = new List<string>();
+    personality.Add("diligent");
+    personality.Add("eager to learn");
+    personality.Add("does not give up easily");
+    personality.Add("daydreamer");
+    personality.Add("researcher");
+    personality.Add("prone to teamwork");
+    personality.Add("organized");
+  }  
+  public void WhatDoIWant()()
+  {
+    expectation = "Opportunity to work and develop with experts in the field.";
+    dream = "Being a great game developer and working on a big game.";
+    workArea = "I want to improve myself both Game developing and 3D modelling.";
+  }
+
+}

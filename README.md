@@ -2,7 +2,7 @@
 -  👀 I’m interested in Game Industry
 - 🌱 I’m currently learning game development.
 - using My.Excitement;
-using SupportOfExperts;
+-using SupportOfExperts;
 using TheGuidanceOfMyInnerChild;
 
 public class MyResume : MonoBehaviour

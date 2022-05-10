@@ -9,9 +9,9 @@ using TheGuidanceOfMyInnerChild;
 public class MyResume : MonoBehaviour
 {
   public List<GameObject> attempts; 
-  private string expectation = "";
-  private string dream = "";
-  private string workArea = "";
+  private string expectation ;
+  private string dream ;
+  private string workArea ;
   private List<string> personality;
   
   public void MyExperience()

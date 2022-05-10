@@ -8,18 +8,18 @@ using TheGuidanceOfMyInnerChild;
 
 public class MyResume : MonoBehaviour
 {
-  public List<GameObject> attempts; 
+  [SerializeField] List<GameObject> attemptsList; 
   private string expectation ;
   private string dream ;
   private string workArea ;
-  private List<string> personality;
+  private List<string> personalityList;
   
   public void MyExperience()
   {
-    attempts[0].GetChild(0).GetComponent<Text>().text = "As a final project,I made a 3D car racing game by learning and trying it myself.Although I didn't fully understand everything I was doing, I decided that I wanted to at least improve in this area.";
-    attempts[1].GetChild(0).GetComponent<Text>().text = "For the company I work for,I made a Listening Quiz game for children trying to learn a different language.I can't share this due to privacy rights."
-    attempts[2].GetChild(0).GetComponent<Text>().text = "I developed a simple project by myself to learn to use Firebase.There is a simple button and each time the button is pressed, your score will increase by 10 points. I keep the user's Email address, username and score in firebase.";
-    attempts[3].GetChild(0).GetComponent<Text>().text = "I am currently dealing with hypercasual game making. In addition, I mainly try to improve myself in 3D modeling and animation."
+    attemptsList[0].GetChild(0).GetComponent<Text>().text = "As a final project,I made a 3D car racing game by learning and trying it myself.Although I didn't fully understand everything I was doing, I decided that I wanted to at least improve in this area.";
+    attemptsList[1].GetChild(0).GetComponent<Text>().text = "For the company I work for,I made a Listening Quiz game for children trying to learn a different language.I can't share this due to privacy rights."
+    attemptsList[2].GetChild(0).GetComponent<Text>().text = "I developed a simple project by myself to learn to use Firebase.There is a simple button and each time the button is pressed, your score will increase by 10 points. I keep the user's Email address, username and score in firebase.";
+    attemptsList[3].GetChild(0).GetComponent<Text>().text = "I am currently dealing with hypercasual game making. In addition, I mainly try to improve myself in 3D modeling and animation."
   }
   public void IntroduceYourself()
   {

@@ -1,43 +1,20 @@
-👋 Hi, I’m @adoruksen
-👀 I’m interested in Game Industry
-🌱 I’m currently learning game development.
+<h1 align="center">Hi 👋, I'm Doruk</h1>
+<h3 align="center">Unity Developer</h3>
 
-using My.Excitement;
-using SupportOfExperts;
-using TheGuidanceOfMyInnerChild;
+- 🔭 I’m currently working on **Hypercasual, Hybridcasual and Casual projects**
 
-public class MyResume : MonoBehaviour
-{
-  [SerializeField] List<GameObject> attemptsList; 
-  private string expectation ;
-  private string dream ;
-  private string workArea ;
-  private List<string> personalityList;
-  
-  public void MyExperience()
-  {
-    attemptsList[0].GetChild(0).GetComponent<Text>().text = "As a final project,I made a 3D car racing game by learning and trying it myself.Although I didn't fully understand everything I was doing, I decided that I wanted to at least improve in this area.";
-    attemptsList[1].GetChild(0).GetComponent<Text>().text = "For the company I work for,I made a Listening Quiz game for children trying to learn a different language.I can't share this due to privacy rights."
-    attemptsList[2].GetChild(0).GetComponent<Text>().text = "I developed a simple project by myself to learn to use Firebase.There is a simple button and each time the button is pressed, your score will increase by 10 points. I keep the user's Email address, username and score in firebase.";
-    attemptsList[3].GetChild(0).GetComponent<Text>().text = "I am currently dealing with hypercasual game making. In addition, I mainly try to improve myself in 3D modeling and animation."
-  }
-  public void IntroduceYourself()
-  {
-    List<string> personality = new List<string>();
-    personality.Add("diligent");
-    personality.Add("eager to learn");
-    personality.Add("does not give up easily");
-    personality.Add("daydreamer");
-    personality.Add("researcher");
-    personality.Add("prone to teamwork");
-    personality.Add("organized");
-  }  
-  public void WhatDoIWant()
-  {
-    expectation = "Opportunity to work and develop with experts in the field.";
-    dream = "Being a great game developer and working on a big game.";
-    workArea = "I want to improve myself at game developing.";
-  }
-  
+- 🌱 I’m currently learning **Backend Systems, Auth Systems, Multiplayer Systems**
 
-}
+- 💬 Ask me about **c#, Unity**
+
+- 📫 How to reach me **doruksen97@gmail.com**
+
+- ⚡ Fun fact **I am too scared to go inside the facilities at Lethal Company, so they call me terminal guy!**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+

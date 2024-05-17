@@ -10,9 +10,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="40" alt="swift logo"  />
 </div>
 
-###
-
-<img src="https://raw.githubusercontent.com/adoruksen/adoruksen/output/snake.svg" alt="Snake animation" />
 
 ###
 
